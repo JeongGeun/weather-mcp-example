@@ -5,7 +5,7 @@ import {
   ForecastResponse,
   ForecastPeriod,
   NWS_API_BASE,
-} from './nwsApi.js';
+} from '@/nwsApi';
 import { z } from 'zod';
 
 export function registerForecastTool(server: McpServer) {

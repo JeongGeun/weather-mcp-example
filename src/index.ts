@@ -1,7 +1,7 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
-import { registerAlertsTool } from './alertsTool.js';
-import { registerForecastTool } from './forecastTool.js';
+import { registerAlertsTool } from '@/alertsTool';
+import { registerForecastTool } from '@/forecastTool';
 
 // Create a single server instance
 const server = new McpServer({

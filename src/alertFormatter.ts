@@ -1,4 +1,4 @@
-import { AlertFeature } from './nwsApi.js';
+import { AlertFeature } from '@/nwsApi';
 
 // Format alert data
 export function formatAlert(feature: AlertFeature): string {

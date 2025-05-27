@@ -1,6 +1,6 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
-import { makeNWSRequest, AlertsResponse, NWS_API_BASE } from './nwsApi.js';
-import { formatAlert } from './alertFormatter.js';
+import { makeNWSRequest, AlertsResponse, NWS_API_BASE } from '@/nwsApi';
+import { formatAlert } from '@/alertFormatter';
 import { z } from 'zod';
 
 export function registerAlertsTool(server: McpServer) {
